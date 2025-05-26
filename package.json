@@ -1,0 +1,20 @@
+{
+  "name": "ben-denham",
+  "version": "1.0.0",
+  "description": "Personal website for Ben Denham",
+  "type": "module",
+  "scripts": {
+    "bib": "node scripts/bib-to-csljson.js < bib/bib.bib > bib/bib.json",
+    "modelize": "cosma modelize --custom-css --citeproc && mv export/cosmoscope.html export/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ben-denham/me.git"
+  },
+  "author": "Ben Denham",
+  "homepage": "https://github.com/ben-denham/me#readme",
+  "dependencies": {
+    "@graphlab-fr/cosma": "^2.5.4",
+    "biblatex-csl-converter": "^3.2.2"
+  }
+}
