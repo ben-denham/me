@@ -1,7 +1,7 @@
 ---
-title: Dr Ben Denham
+title: Ben Denham
 types:
-  - about
+  - home
 thumbnail: ben-denham.jpg
 ---
 

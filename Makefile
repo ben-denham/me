@@ -3,3 +3,4 @@ deps:
 generate:
 	npm run bib
 	npm run modelize
+	npm run post-process

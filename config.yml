@@ -9,30 +9,43 @@ export_target: ./export/
 history: false
 focus_max: 2
 record_types:
+  # https://g-thomson.github.io/Manu/#kea---nestor-notabilis
   undefined:
-    fill: "#858585"
-    stroke: "#858585"
-  about:
-    fill: "#984ea3"
-    stroke: "#984ea3"
+    fill: "#D3CDBF"
+    stroke: "#D3CDBF"
+  home:
+    fill: "#272318"
+    stroke: "#272318"
+  project:
+    fill: "#6C803A"
+    stroke: "#6C803A"
+  publication:
+    fill: "#7B5C34"
+    stroke: "#7B5C34"
+  presentation:
+    fill: "#D73202"
+    stroke: "#D73202"
+  blog:
+    fill: "#CCAE42"
+    stroke: "#CCAE42"
 link_types:
   undefined:
     stroke: simple
-    color: "#e1e1e1"
+    color: "#272318"
 references_as_nodes: false
 references_type_label: references
 record_filters: []
-graph_background_color: "#ffffff"
-graph_highlight_color: "#ff6a6a"
+graph_background_color: "#D3CDBF"
+graph_highlight_color: "#272318"
 graph_highlight_on_hover: true
-graph_text_size: 10
+graph_text_size: 8
 graph_arrows: true
 node_size_method: degree
 node_size: 10
 node_size_max: 20
 node_size_min: 2
-attraction_force: 200
-attraction_distance_max: 250
+attraction_force: 600
+attraction_distance_max: 800
 attraction_vertical: 0
 attraction_horizontal: 0
 views: {}

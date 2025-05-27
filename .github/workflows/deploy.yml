@@ -38,6 +38,8 @@ jobs:
       - run: npm ci
       - run: npm run bib
       - run: npm run modelize
+      - run: npm run post-process
+      - run: rm export/cosmoscope.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
